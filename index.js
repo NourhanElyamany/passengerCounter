@@ -1,12 +1,10 @@
 let count = 0;
 let counter = document.getElementById("count");
-let saved = document.getElementById("saved")
-
+let save = document.getElementById("saved");
 
 function del(){
-
-    let countStr = count + " - ";
-    saved.textContenttStr;
+    let countStr = counter.textContent + " | ";
+    save.textContent += countStr
     counter.textContent = 0;
     count = 0;
 }
