@@ -5,10 +5,10 @@ let saved = document.getElementById("saved")
 
 function del(){
 
-    counter.innerText = 0;
-    count = 0;
     let countStr = count + " - ";
-    saved.textContenttStr += countStr;
+    saved.textContenttStr;
+    counter.textContent = 0;
+    count = 0;
 }
 console.log(del());
 function increment(){
